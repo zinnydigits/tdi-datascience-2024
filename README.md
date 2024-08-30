@@ -1,6 +1,6 @@
 # TDI Data Science Program 2024
 
-Welcome to the repository containing various tasks completed as part of TDI Data Science program. Each task is designed to build foundational skills in data science, and programming. Below is an overview of the tasks included in this repository.
+This repository contains various tasks completed as part of TDI Data Science program. Each task is designed to build foundational skills in data science, and programming. Below is an overview of the tasks included in this repository.
 
 ## Table of Contents
 - [Task 1: Introduction to Data Science](#task-1-introduction-to-data-science)
