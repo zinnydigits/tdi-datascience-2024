@@ -3,10 +3,12 @@
 This repository contains various tasks completed as part of TDI Data Science program. Each task is designed to build foundational skills in data science, and programming. Below is an overview of the tasks included in this repository.
 
 ## Table of Contents
-- [Task 1: Introduction to Data Science](#task-1-introduction-to-data-science)
-- [Task 2: Rock Paper Scissors and Number Guessing Game](#task-2-rock-paper-scissors-and-number-guessing-game)
-- [Task 3: Employees Contact Book Application](#task-3-employees-contact-book-application)
-- [Task 4: Employee Data Management and Analysis System](#task-4-employee-data-management-and-analysis-system)
+- [Week 1: Introduction to Data Science](#task-1-introduction-to-data-science)
+- [Week 2: Rock Paper Scissors and Number Guessing Game](#task-2-rock-paper-scissors-and-number-guessing-game)
+- [Week 3: Employees Contact Book Application](#task-3-employees-contact-book-application)
+- [Week 4: Employee Data Management and Analysis System](#task-4-employee-data-management-and-analysis-system)
+- [Week 5: Data Structures and Object Oriented Programming (OOP)](#task-5-data-structures-and-object-oriented-programming-oop)
+
 
 ## Task 1: Introduction to Data Science
 
@@ -52,6 +54,16 @@ In this task, a JSON file containing employee data was analyzed without using an
 **Files:**
 - https://github.com/zinnydigits/tdi-datascience-2024/blob/main/task-4.ipynb
 
+## Task 5: Data Structures and Objected Oriented Programming (OOP)
+This task involves creating a Python-based system to manage and analyze employee data using core Python features like object-oriented programming, CSV handling, and data slicing without external libraries. A Class was developed for employees, inheritance implemented, and data manipulated based on various criteria such as salary and age.
+
+**Skills Covered:**
+- Object Oriented Programming (OOP)
+- Data Manipulation in Python
+- Data Structures
+
+**Files:**
+https://github.com/zinnydigits/tdi-datascience-2024/blob/main/task%205.ipynb
 
 ## Contact
 For any questions or feedback, feel free to reach out to [adahacos@gmail.com](mailto:adahacos@gmail.com).
