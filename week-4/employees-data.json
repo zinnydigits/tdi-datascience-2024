@@ -1,0 +1,403 @@
+[
+    {
+        "empID": "E001",
+        "fullName": "John Smith",
+        "department": "Finance",
+        "position": "Financial Analyst",
+        "experienceLevel": "Senior",
+        "salary": "N 750000"
+    },
+    {
+        "empID": "E002",
+        "fullName": "Jane Doe",
+        "department": "Finance",
+        "position": "Accountant",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 600000"
+    },
+    {
+        "empID": "E003",
+        "fullName": "Alice Johnson",
+        "department": "Human Resources",
+        "position": "HR Manager",
+        "experienceLevel": "Senior",
+        "salary": "N 700000"
+    },
+    {
+        "empID": "E004",
+        "fullName": "Robert Brown",
+        "department": "Human Resources",
+        "position": "Recruiter",
+        "experienceLevel": "Junior",
+        "salary": "N 400000"
+    },
+    {
+        "empID": "E005",
+        "fullName": "Michael Davis",
+        "department": "IT",
+        "position": "Software Engineer",
+        "experienceLevel": "Senior",
+        "salary": "N 850000"
+    },
+    {
+        "empID": "E006",
+        "fullName": "Emily Wilson",
+        "department": "IT",
+        "position": "System Administrator",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 700000"
+    },
+    {
+        "empID": "E007",
+        "fullName": "David Taylor",
+        "department": "Marketing",
+        "position": "Marketing Specialist",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 550000"
+    },
+    {
+        "empID": "E008",
+        "fullName": "Laura Thomas",
+        "department": "Marketing",
+        "position": "Content Writer",
+        "experienceLevel": "Junior",
+        "salary": "N 450000"
+    },
+    {
+        "empID": "E009",
+        "fullName": "James Moore",
+        "department": "Sales",
+        "position": "Sales Manager",
+        "experienceLevel": "Senior",
+        "salary": "N 850000"
+    },
+    {
+        "empID": "E010",
+        "fullName": "Patricia Lee",
+        "department": "Sales",
+        "position": "Sales Representative",
+        "experienceLevel": "Junior",
+        "salary": "N 400000"
+    },
+    {
+        "empID": "E011",
+        "fullName": "Brian Harris",
+        "department": "Operations",
+        "position": "Operations Manager",
+        "experienceLevel": "Senior",
+        "salary": "N 800000"
+    },
+    {
+        "empID": "E012",
+        "fullName": "Sarah Clark",
+        "department": "Operations",
+        "position": "Logistics Coordinator",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 600000"
+    },
+    {
+        "empID": "E013",
+        "fullName": "Kevin Martinez",
+        "department": "Customer Service",
+        "position": "Customer Service Manager",
+        "experienceLevel": "Senior",
+        "salary": "N 700000"
+    },
+    {
+        "empID": "E014",
+        "fullName": "Jessica Lewis",
+        "department": "Customer Service",
+        "position": "Support Representative",
+        "experienceLevel": "Junior",
+        "salary": "N 350000"
+    },
+    {
+        "empID": "E015",
+        "fullName": "George Walker",
+        "department": "Legal",
+        "position": "Legal Advisor",
+        "experienceLevel": "Senior",
+        "salary": "N 900000"
+    },
+    {
+        "empID": "E016",
+        "fullName": "Sophia Hall",
+        "department": "Legal",
+        "position": "Paralegal",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 600000"
+    },
+    {
+        "empID": "E017",
+        "fullName": "Daniel Allen",
+        "department": "Finance",
+        "position": "Tax Specialist",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 620000"
+    },
+    {
+        "empID": "E018",
+        "fullName": "Megan Wright",
+        "department": "Finance",
+        "position": "Budget Analyst",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 630000"
+    },
+    {
+        "empID": "E019",
+        "fullName": "Ryan King",
+        "department": "IT",
+        "position": "Network Engineer",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 750000"
+    },
+    {
+        "empID": "E020",
+        "fullName": "Olivia Scott",
+        "department": "IT",
+        "position": "DevOps Engineer",
+        "experienceLevel": "Senior",
+        "salary": "N 820000"
+    },
+    {
+        "empID": "E021",
+        "fullName": "Ethan Green",
+        "department": "Marketing",
+        "position": "SEO Specialist",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 550000"
+    },
+    {
+        "empID": "E022",
+        "fullName": "Madison Baker",
+        "department": "Marketing",
+        "position": "Graphic Designer",
+        "experienceLevel": "Junior",
+        "salary": "N 420000"
+    },
+    {
+        "empID": "E023",
+        "fullName": "Jacob Adams",
+        "department": "Sales",
+        "position": "Account Executive",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 650000"
+    },
+    {
+        "empID": "E024",
+        "fullName": "Emma Nelson",
+        "department": "Sales",
+        "position": "Sales Coordinator",
+        "experienceLevel": "Junior",
+        "salary": "N 400000"
+    },
+    {
+        "empID": "E025",
+        "fullName": "Alexander Carter",
+        "department": "Operations",
+        "position": "Supply Chain Manager",
+        "experienceLevel": "Senior",
+        "salary": "N 850000"
+    },
+    {
+        "empID": "E026",
+        "fullName": "Ava Mitchell",
+        "department": "Operations",
+        "position": "Inventory Specialist",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 520000"
+    },
+    {
+        "empID": "E027",
+        "fullName": "Logan Perez",
+        "department": "Customer Service",
+        "position": "Call Center Supervisor",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 540000"
+    },
+    {
+        "empID": "E028",
+        "fullName": "Isabella Roberts",
+        "department": "Customer Service",
+        "position": "Technical Support",
+        "experienceLevel": "Junior",
+        "salary": "N 380000"
+    },
+    {
+        "empID": "E029",
+        "fullName": "William Turner",
+        "department": "Legal",
+        "position": "Compliance Officer",
+        "experienceLevel": "Senior",
+        "salary": "N 800000"
+    },
+    {
+        "empID": "E030",
+        "fullName": "Amelia Phillips",
+        "department": "Legal",
+        "position": "Contract Manager",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 620000"
+    },
+    {
+        "empID": "E031",
+        "fullName": "Mason Campbell",
+        "department": "Finance",
+        "position": "Auditor",
+        "experienceLevel": "Senior",
+        "salary": "N 700000"
+    },
+    {
+        "empID": "E032",
+        "fullName": "Lily Evans",
+        "department": "Finance",
+        "position": "Financial Planner",
+        "experienceLevel": "Senior",
+        "salary": "N 720000"
+    },
+    {
+        "empID": "E033",
+        "fullName": "Elijah Edwards",
+        "department": "IT",
+        "position": "Data Scientist",
+        "experienceLevel": "Senior",
+        "salary": "N 850000"
+    },
+    {
+        "empID": "E034",
+        "fullName": "Charlotte White",
+        "department": "IT",
+        "position": "Cybersecurity Analyst",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 750000"
+    },
+    {
+        "empID": "E035",
+        "fullName": "Lucas Collins",
+        "department": "Marketing",
+        "position": "Brand Manager",
+        "experienceLevel": "Senior",
+        "salary": "N 680000"
+    },
+    {
+        "empID": "E036",
+        "fullName": "Sofia Rodriguez",
+        "department": "Marketing",
+        "position": "Digital Marketing Specialist",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 550000"
+    },
+    {
+        "empID": "E037",
+        "fullName": "Henry Hill",
+        "department": "Sales",
+        "position": "Sales Director",
+        "experienceLevel": "Senior",
+        "salary": "N 900000"
+    },
+    {
+        "empID": "E038",
+        "fullName": "Zoe Parker",
+        "department": "Sales",
+        "position": "Sales Associate",
+        "experienceLevel": "Junior",
+        "salary": "N 380000"
+    },
+    {
+        "empID": "E039",
+        "fullName": "Liam Walker",
+        "department": "Operations",
+        "position": "Operations Analyst",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 580000"
+    },
+    {
+        "empID": "E040",
+        "fullName": "Mia Scott",
+        "department": "Operations",
+        "position": "Procurement Specialist",
+        "experienceLevel": "Junior",
+        "salary": "N 450000"
+    },
+    {
+        "empID": "E041",
+        "fullName": "Nathan Young",
+        "department": "Customer Service",
+        "position": "Customer Experience Manager",
+        "experienceLevel": "Senior",
+        "salary": "N 700000"
+    },
+    {
+        "empID": "E042",
+        "fullName": "Layla Martinez",
+        "department": "Customer Service",
+        "position": "Client Relations Specialist",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 550000"
+    },
+    {
+        "empID": "E043",
+        "fullName": "Oliver Lopez",
+        "department": "Legal",
+        "position": "Legal Counsel",
+        "experienceLevel": "Senior",
+        "salary": "N 900000"
+    },
+    {
+        "empID": "E044",
+        "fullName": "Chloe Gonzalez",
+        "department": "Legal",
+        "position": "Legal Secretary",
+        "experienceLevel": "Junior",
+        "salary": "N 400000"
+    },
+    {
+        "empID": "E045",
+        "fullName": "Jayden Roberts",
+        "department": "Finance",
+        "position": "Investment Analyst",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 670000"
+    },
+    {
+        "empID": "E046",
+        "fullName": "Ella Clark",
+        "department": "Finance",
+        "position": "Financial Consultant",
+        "experienceLevel": "Senior",
+        "salary": "N 800000"
+    },
+    {
+        "empID": "E047",
+        "fullName": "Noah Mitchell",
+        "department": "IT",
+        "position": "Cloud Architect",
+        "experienceLevel": "Senior",
+        "salary": "N 900000"
+    },
+    {
+        "empID": "E048",
+        "fullName": "Grace Lee",
+        "department": "IT",
+        "position": "IT Support Specialist",
+        "experienceLevel": "Junior",
+        "salary": "N 400000"
+    },
+    {
+        "empID": "E049",
+        "fullName": "Aiden King",
+        "department": "Marketing",
+        "position": "Market Research Analyst",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 600000"
+    },
+    {
+        "empID": "E050",
+        "fullName": "Harper Adams",
+        "department": "Marketing",
+        "position": "Public Relations Specialist",
+        "experienceLevel": "Mid-Level",
+        "salary": "N 620000"
+    }
+]
+
