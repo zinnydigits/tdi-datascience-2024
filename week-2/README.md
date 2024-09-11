@@ -11,10 +11,14 @@ Your objective is to use Python to develop these two games while demonstrating y
 To aid in your development, your manager has provided a set of recommended online resources. These tutorials will help you refresh or learn essential Python concepts needed to complete this assignment:
 
  **Resource 1:** [Python for Beginners - Learn Python in 1 Hour](https://youtu.be/kqtD5dpn9C8?si=kDbO9Zm4nsENO86Y&t=330)
+ 
  **Resource 2:** [Learn Python in Less than 10 Minutes for Beginners (Fast & Easy)](https://youtu.be/fWjsdhR3z3c?si=Yp-TqrYl9U9eCzl5)
- **Resource 3:** [Learn Python With One Project](https://youtu.be/th4OBktqK1I?si=jQMc12IaC8dX2FdQ)
- **Resource 4:** https://learn.microsoft.com/en-us/training/paths/beginner-python/
- **Resource 5:** https://www.programiz.com/python-programming
+
+**Resource 3:** [Learn Python With One Project](https://youtu.be/th4OBktqK1I?si=jQMc12IaC8dX2FdQ)
+
+**Resource 4:** https://learn.microsoft.com/en-us/training/paths/beginner-python/
+
+**Resource 5:** https://www.programiz.com/python-programming
 
 
 ## PART A: 
@@ -45,21 +49,30 @@ To aid in your development, your manager has provided a set of recommended onlin
 Submission Details
 
 **Deadline:** Your code should be submitted by Friday, 7 AM-Saturday, 3 PM at the latest.
+
 **Submission Format:** Provide your Python script files for both games. Ensure your code is well commented and follows best practices.
+
 **Public Sharing:** Share your work on GitHub Twitter or Linkdlen or similar platforms to showcase your coding skills. If desired, tag relevant stakeholders to highlight your achievements.
 
 **For Twitter:**
+
 Tag @TDataImmersed, 
+
 @DabereNnamnai, 
+
 @JacobAjala 
+
 @msexcel
+
 use the hashtag #TDI.
 
 **For LinkedIn:**
 Tag :The Data Immersed and Anne Nnamani.
 
 ## PART C: 
+
 Correction and Feedback
 
 **Feedback Session:**
+
 After submission, join a feedback session on Saturday at 4 PM. This will be an opportunity to review your work, receive constructive feedback from peers and mentors, and refine your coding skills.
