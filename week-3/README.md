@@ -1,4 +1,4 @@
-# TDI - Employee Contact Book Application (Due Date: 24/08/2024)
+# TDI - Employee Contact Book Application <br> (Due Date: 24/08/2024)
 
 ## Project Overview:
 You have been assigned by your company to develop an 'Employee Contact Book' application. This application will function as a centralized system for securely storing and managing employee contact details, including names, phone numbers, email addresses, and addresses. The application must ensure that all contact details are unique, correctly formatted, and validated before being added to the database.
@@ -7,7 +7,7 @@ You have been assigned by your company to develop an 'Employee Contact Book' app
 To develop a reliable, user-friendly Python application that manages and displays employee contact information while ensuring data accuracy and uniqueness.
 
 ### Requirements:
-**Programming Language:** Python
+**Programming Language:** Python <br>
 **Knowledge:** Lists, tuples, dictionaries, string manipulation, input validation, basic error handling and functions.
 
 ### Project Structure:
@@ -26,13 +26,13 @@ To develop a reliable, user-friendly Python application that manages and display
 - Validate that the phone_number contains only numeric characters.
 - Validate the format of the email to ensure it meets standard email structure.
 - Allow address to contain special characters, numbers, and alphabets.
-- Adding Employees: Before adding a new employee to the contact book, check if empID, phone_number, or email already exists. 
-If a duplicate is found, display an appropriate message, such as:
-        'Employee with employee number [empID] already exists.'
-        'Phone number [phone_number] is already assigned to another employee.'
+- Adding Employees: <br>Before adding a new employee to the contact book, check if empID, phone_number, or email already exists. <br>
+If a duplicate is found, display an appropriate message, such as: <br>
+        'Employee with employee number [empID] already exists.' <br>
+        'Phone number [phone_number] is already assigned to another employee.' <br>
         'Email [email] is already in use.'
 
-2. Displaying the Employee Contact List:
+2. **Displaying the Employee Contact List:** <br>
 Develop a feature to print all employee contacts in a well-organized table format: 
-See sample in the snippet below.
+<br>See sample in the snippet below.
 ![display](image.PNG)
