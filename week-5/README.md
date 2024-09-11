@@ -5,10 +5,10 @@ In this project, you will develop a Python-based system for managing and analyzi
 
 ## Project Objective:
 The objective of this project is to build a Python-based employee management system that showcases your proficiency in core Python programming concepts. 
-By the end of this project, you should be able to:
-i.	Implement and manage classes with private and public attributes.
-ii.	Use inheritance to design a class hierarchy.
-iii.	Read data from CSV files using Python’s built-in capabilities.
+By the end of this project, you should be able to: <br>
+i.	Implement and manage classes with private and public attributes. <br>
+ii.	Use inheritance to design a class hierarchy. <br>
+iii.	Read data from CSV files using Python’s built-in capabilities. <br>
 iv.	Perform data slicing and manipulation using standard Python data structures, such as lists and dictionaries.
 
 ### Download CSV Employees Data:
@@ -25,9 +25,9 @@ When reading the CSV file, please ensure to skip any rows with empty values. You
 
 ## Questions:
 ### 1.	Classes and Inheritance
-a.	Define a Python class named Employee with attributes for name, age, and salary (The salary attribute should be private):
-i.	Describe the difference between private and public attributes in Python classes. When would you choose to make an attribute private?
-ii.	A method to get and set the value of the salary.
+a.	Define a Python class named Employee with attributes for name, age, and salary (The salary attribute should be private): <br>
+i.	Describe the difference between private and public attributes in Python classes. When would you choose to make an attribute private? <br>
+ii.	A method to get and set the value of the salary. <br>
 iii. A method to display the employee’s details.
 
 b.	Explain how inheritance can be used to create a class hierarchy for different employee types such as Employee, Manager, and Intern. You can provide code examples if necessary.
@@ -36,33 +36,32 @@ c.	Create a Python program where the Manager class extends the Employee class. O
 
 
 ### 2.	Reading and Slicing Datasets
-a.	Write a Python function to read data from a CSV file into a list of dictionaries, where each dictionary represents a row in the file. 
-Limit the data read to the first 20 rows.
-b.	Given a dataset loaded into a list of dictionaries with keys Name, Age, Salary, and Department, write a Python code snippet to:
-•	Slice the dataset to get all employees with a salary above average salary.
-•	Extract only the Name and Department fields from each dictionary. The output should be sorted by name in ascending order.
+a.	Write a Python function to read data from a CSV file into a list of dictionaries, where each dictionary represents a row in the file. Limit the data read to the first 20 rows. <br>
+b.	Given a dataset loaded into a list of dictionaries with keys Name, Age, Salary, and Department, write a Python code snippet to:<br>
+- Slice the dataset to get all employees with a salary above average salary.
+- Extract only the Name and Department fields from each dictionary. <br>The output should be sorted by name in ascending order.
 
 ### 3.	Integrating Classes with Dataset Operations
-**a.	Create Employee Objects from CSV:**
+**a.	Create Employee Objects from CSV:**<br>
 i.	Write a function using the Employee class that reads employee data from a CSV file. 
-For each row in the CSV, create an employee object and store these objects in a list.
-**b.	Answer the Following Questions:**
-**Filter by Age:**
-i.	How many employees are over 30 years old?  
-ii.	Which employees are younger than 25 years?  
-iii.	List the employees who are between 28 and 35 years old.  
-iv.	Who are the employees that are exactly 40 years old?
-**Filter by Salary:**
-v.	Which employees have a salary higher than ₦1,500,000 per month?  
-vi.	Can you find the employees earning less than ₦800,000 per month?  
-vii.	List the employees whose salaries are between ₦1,000,000 and ₦2,000,000 per month.  
-viii.	Who earns exactly ₦1,200,000 per month?
-**Combined Filters:**
-ix.	Which employees over 30 years old earn more than ₦1,500,000 per month?  
-x.	Can you list the employees who are under 35, earn between ₦1,000,000 and ₦2,000,000 per month, and work in the Sales department?
-**Filter by Department and Position:**
-xi.	Who are the employees working in the Engineering department?  
-xii.	List the employees who hold the title of Manager.  
+For each row in the CSV, create an employee object and store these objects in a list. <br>
+**b.	Answer the Following Questions:**<br>
+**Filter by Age:**<br>
+i.	How many employees are over 30 years old?  <br>
+ii.	Which employees are younger than 25 years?  <br>
+iii.	List the employees who are between 28 and 35 years old.  <br>
+iv.	Who are the employees that are exactly 40 years old? <br>
+**Filter by Salary:**<br>
+v.	Which employees have a salary higher than ₦1,500,000 per month?  <br>
+vi.	Can you find the employees earning less than ₦800,000 per month?  <br>
+vii.	List the employees whose salaries are between ₦1,000,000 and ₦2,000,000 per month.  <br>
+viii.	Who earns exactly ₦1,200,000 per month?<br>
+**Combined Filters:**<br>
+ix.	Which employees over 30 years old earn more than ₦1,500,000 per month?  <br>
+x.	Can you list the employees who are under 35, earn between ₦1,000,000 and ₦2,000,000 per month, and work in the Sales department?<br>
+**Filter by Department and Position:**<br>
+xi.	Who are the employees working in the Engineering department?  <br>
+xii.	List the employees who hold the title of Manager.  <br>
 xiii.	Which employees are Managers in the Finance department?
 
 ## SUBMISSION MODE
