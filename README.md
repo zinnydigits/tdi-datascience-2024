@@ -1,51 +1,117 @@
-# TDI Data Science Program 2024
+# TDI - NumPy Data Science Assignment
+This assignment is designed to introduce you to the fundamental concepts and functionalities of NumPy, a powerful library for data analysis and scientific computing in Python.
 
-This repository contains various tasks completed as part of TDI Data Science program. Each task is designed to build foundational skills in data science, and programming. Below is an overview of the tasks included in this repository.
+The assignment is divided into two sections: Basic and Advanced. 
+Each section contains questions that will test your understanding of different NumPy operations.
 
-## Table of Contents
-- [Week 1: Introduction to Data Science](#task-1-introduction-to-data-science)
-- [Week 2: Rock Paper Scissors and Number Guessing Game](#task-2-rock-paper-scissors-and-number-guessing-game)
-- [Week 3: Employees Contact Book Application](#task-3-employees-contact-book-application)
-- [Week 4: Employee Data Management and Analysis System](#task-4-employee-data-management-and-analysis-system)
-- [Week 5: Data Structures and Object Oriented Programming (OOP)](#task-5-data-structures-and-object-oriented-programming-oop)
+Note: install numpy library using `pip install numpy --upgrade`
 
+## References:
+a)	 [Numpy for data science](https://youtu.be/EmA_TuC2Vdk?si=uDd7qB1neIHSfjrX)
 
-## Week 1: Introduction to Data Science
+b)	[Essential numpy statistical operations](https://youtu.be/pIA8KKklfR0?si=BVcK5kzNNY5tsDGT)
 
-This task provides an introduction to data science concepts and tools. This includes how data science differentiates from traditional data analysis, roles and responsibilities of a data scientist in a business environment, difference between supervised and unsupervised learning, popular tools and libraries used in data science and their key feature and lots more.
+c)	[Linear System of Simultaneous Equations](https://youtu.be/iS9pdDahuNA?si=soJNXWsqui8Tdskt)
 
-## Week 2: Rock Paper Scissors and Number Guessing Game
- 
-In this task, two simple Python games were developed to practice basic programming skills. The first game is a Rock-Paper-Scissors game where the user plays against the computer. The second game is a Number Guessing Game where the user tries to guess a randomly generated number.
+## Section 1: Basic Questions
+**1. NumPy Array Creation and Manipulation**
 
-**Skills Covered:**
-- Basic Python programming
-- Control flow (if-else statements, loops)
-- Random number generation
+a)	Create a 1D array of numbers from 1 to 10.
 
-## Week 3: Employees Contact Book Application
+b)	Reshape the array into a 2x5 matrix.
 
-This task involved creating a simple console-based application for managing employees' contact information. The application allows users to add employee records with unique `empID`, phone number, and email. The focus was on ensuring the uniqueness of each record and managing data integrity through basic Python operations.
+c)	Find the element located in the second row, third column of the matrix.
 
-**Skills Covered:**
-- Lists, tuples, dictionaries, string manipulation, input validation, basic error handling and functions.
+**2. Basic Array Operations**
 
-## Week 4: Employee Data Management and Analysis System
+a)	Create two NumPy arrays: array_1 = [10, 20, 30] and array_2 = [1, 2, 3].
 
-In this task, a JSON file containing employee data was analyzed without using any external Python libraries. The analysis required a strong understanding of working with lists, dictionaries, and grouping data within dictionaries. The task was designed to enhance problem-solving skills by managing and analyzing data purely with native Python data structures.
+b)	Perform element-wise addition, subtraction, and multiplication of these arrays.
 
-**Skills Covered:**
-- JSON data handling
-- Data analysis using native Python structures
-- Lists and dictionaries
+c)	Calculate the sum, mean, and standard deviation of the resulting array after element-wise multiplication.
 
-## Week 5: Data Structures and Objected Oriented Programming (OOP)
-This task involves creating a Python-based system to manage and analyze employee data using core Python features like object-oriented programming, CSV handling, and data slicing without external libraries. A Class was developed for employees, inheritance implemented, and data manipulated based on various criteria such as salary and age.
+**3. Broadcasting and Reshaping**
 
-**Skills Covered:**
-- Object Oriented Programming (OOP)
-- Data Manipulation in Python
-- Data Structures
+a)	Create a 1D array of numbers from 0 to 15. Reshape it into a 3x5 matrix.
 
-## Contact
-For any questions or feedback, feel free to reach out to [adahacos@gmail.com](mailto:adahacos@gmail.com).
+b)	Add 10 to each element in the matrix using broadcasting.
+
+c)	Create another 3x5 matrix and multiply the two matrices using broadcasting.
+
+**4. Logical Operations and Boolean Indexing**
+
+a)	Create an array with values: [15, 22, 33, 41, 50, 65, 72].
+
+b)	Use boolean indexing to filter out values that are greater than 40.
+
+c)	Replace all values greater than 40 with the value 0 in the original array.
+
+## Section 2: Advanced Questions
+**1. Matrix Operations**
+
+a)	Create a 3x3 matrix using the values [[1, 2, 3], [4, 5, 6], [7, 8, 9]].
+
+b)	Find the transpose of the matrix.
+
+c)	Perform matrix multiplication with another 3x3 matrix of your choice using np.dot().
+
+d)	Calculate the inverse of the resulting matrix, if possible.
+
+**2. Statistical Analysis**
+
+a)	Create two arrays: array_x = [1, 3, 5, 7, 9] and array_y = [2, 4, 6, 8, 10].
+
+b)	Compute the correlation coefficient between the two arrays using np.corrcoef().
+
+c)	Generate 1000 random numbers from a normal distribution and find the 95th percentile.
+
+**3. Solving Linear Equations**
+
+a)	Solve the following system of equations using NumPy:
+
+   2x + y = 10
+
+   x - y = 2
+
+   Use matrix form to solve this using np.linalg.solve().
+
+**4. Fancy Indexing and Conditional Selection**
+
+a)	Create an array: array = [25, 45, 15, 75, 35, 55, 85].
+
+b)	Use fancy indexing to rearrange the elements in descending order.
+
+c)	Use np.where() to replace all values greater than 50 with 100 and values less than or equal to 50 with 0.
+
+**5. Performance Comparison: NumPy vs. Python Lists**
+
+a)	Create a Python list with 1 million elements and a NumPy array with the same number of elements.
+
+b)	Write a Python function that computes the sum of all elements in both the list and the NumPy array.
+
+c)	Use the timeit module to compare the time taken to sum the elements in both the list and the NumPy array. Report the time difference.
+
+## SUBMISSION MODE
+You are expected to submit your assignment a week after it was given, with this, Submission starts from Friday 7am Nigerian time to Saturday 3pm Nigerian time. 
+This submission will be done either on Twitter or LinkedIn, you can choose either of the two to submit your assignment or you can submit on both platforms. You would take a screenshot of your work Answers, you can add a write up if you want.
+
+**(1)	Primary submission:**
+
+GitHub - If you would need assistance configuring git, please post on the DS group; 
+Thus a session will be conducted for demonstration.
+
+**(2)	For twitter Submission, you would tag:**
+
+a)	The TDI Official page @TDataInitiative
+
+b)	Annie @ DabereNnamnai
+
+c)	Jacob @Jacob_Ajala
+
+d)	Use the #TDIDataScience
+
+**(3)	For LinkedIn Submission, you would tag:**
+
+a)	TDI page @TheData Initiative
+
+b)	Annie @ Anne Nnamani
