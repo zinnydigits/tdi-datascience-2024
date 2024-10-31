@@ -1,0 +1,9 @@
+﻿BookID,Title,AuthorID,Genre,Price
+1,The Great Gatsby,1,Fiction,15.99
+2,To Kill a Mockingbird,2,Fiction,12.5
+3,1984,3,Fiction,10.99
+4,Pride and Prejudice,4,Fiction,9.99
+5,The Catcher in the Rye,5,Fiction,11.25
+6,Harry Potter and the Sorcerer's Stone,6,Fantasy,19.99
+7,The Hobbit,7,Fantasy,14.5
+8,A Game of Thrones,8,Fantasy,17.99
