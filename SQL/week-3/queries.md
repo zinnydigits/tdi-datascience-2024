@@ -12,6 +12,7 @@ CREATE TABLE customers(
 SELECT *
 FROM customers;
 ```
+![Query Execution Screenshot](https://github.com/zinnydigits/tdi-datascience-2024/blob/main/SQL/week-3/output/customers.PNG)
 ```sql
 DROP TABLE IF EXISTS authors;
 CREATE TABLE authors(
@@ -23,14 +24,7 @@ CREATE TABLE authors(
 SELECT *
 FROM authors;
 ```
-```sql
-DROP TABLE IF EXISTS orders;
-CREATE TABLE orders(
-	OrderID	INT,
-	ProductID INT,
-	Quantity INT
-);
-```
+![Query Execution Screenshot](https://github.com/zinnydigits/tdi-datascience-2024/blob/main/SQL/week-3/output/authors.PNG)
 ```sql
 DROP TABLE IF EXISTS books;
 CREATE TABLE books(
@@ -45,7 +39,7 @@ CREATE TABLE books(
 SELECT *
 FROM books;
 ```
-
+![Query Execution Screenshot](https://github.com/zinnydigits/tdi-datascience-2024/blob/main/SQL/week-3/output/books.PNG)
 ```sql
 DROP TABLE IF EXISTS products;
 CREATE TABLE products(
@@ -59,7 +53,7 @@ CREATE TABLE products(
 SELECT *
 FROM products;
 ```
-
+![Query Execution Screenshot](https://github.com/zinnydigits/tdi-datascience-2024/blob/main/SQL/week-3/output/products.PNG)
 ```sql
 DROP TABLE IF EXISTS orders;
 CREATE TABLE orders(
@@ -70,11 +64,10 @@ CREATE TABLE orders(
 );
 
 -- import orders.csv
-
 SELECT *
 FROM orders;
 ```
-
+![Query Execution Screenshot](https://github.com/zinnydigits/tdi-datascience-2024/blob/main/SQL/week-3/output/orders.PNG)
 ```sql
 DROP TABLE IF EXISTS order_details;
 CREATE TABLE order_details(
@@ -87,8 +80,9 @@ CREATE TABLE order_details(
 SELECT *
 FROM order_details;
 ```
+![Query Execution Screenshot](https://github.com/zinnydigits/tdi-datascience-2024/blob/main/SQL/week-3/output/order_details.PNG)
 
--- SQL QUERIES
+## SQL QUERIES
 
 ### Inner Join:
 ```sql
@@ -132,6 +126,7 @@ FROM books
 WHERE price < 15;
 ```
 ![Query Execution Screenshot](https://github.com/zinnydigits/tdi-datascience-2024/blob/main/SQL/week-3/output/inner-join-4.PNG)
+
 ### Outer Join:
 ```sql
 -- 1. List all books and their authors. If a book doesn't have an author, display "Unknown".
@@ -170,6 +165,7 @@ SELECT
 FROM books;
 ```
 ![Query Execution Screenshot](https://github.com/zinnydigits/tdi-datascience-2024/blob/main/SQL/week-3/output/outer-join-4.PNG)
+
 ### Right Join:
 ```sql
 -- 1. Show all products along with the order details. Include products that haven't been ordered.
@@ -218,8 +214,9 @@ GROUP BY p.ProductName
 ORDER BY SUM(od.Quantity) DESC;
 ```
 ![Query Execution Screenshot](https://github.com/zinnydigits/tdi-datascience-2024/blob/main/SQL/week-3/output/right-join-4.PNG)
+
+### Left Join:
 ```sql
--- Left Join:
 
 -- 5. Show all customers along with their orders. Include customers who haven't placed any orders.
 SELECT 
@@ -269,8 +266,8 @@ GROUP BY ProductID
 ORDER BY total_quantity DESC;
 ```
 ![Query Execution Screenshot](https://github.com/zinnydigits/tdi-datascience-2024/blob/main/SQL/week-3/output/left-join-8.PNG)
+### Full Outer Join:
 ```sql
--- Full Outer Join:
 -- 9. List all orders along with the names of the customers who made them. Include orders without customers and customers without orders.
 SELECT 
 	OrderDate,
